@@ -2,6 +2,9 @@
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
   --accent-color: #2196f3;
+  --accent-text-color: #757575;
+  --accent-title-color: #212121;
+  --primary-white-color: #ffffff;
 }
 
 .body {
@@ -42,7 +45,7 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--accent-title-color);
 }
 
 .navigation-link:hover,
@@ -55,7 +58,7 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--accent-text-color);
 }
 
 .mail-link:hover,
@@ -68,7 +71,7 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--accent-text-color);
 }
 
 /*==========HEADER END============*/
@@ -77,12 +80,13 @@
 
 .hero-title {
   font-weight: 900;
+  font-family: var(--main-font);
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  /*color: #ffffff;*/
+  /*color: var(--primary-white-color) ;*/
 }
 
 .advantages-item {
@@ -91,7 +95,7 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--accent-title-color);
 }
 
 .advantages-description {
@@ -99,7 +103,7 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--accent-text-color);
 }
 
 /*==========HERO END============*/
@@ -111,7 +115,7 @@
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--accent-title-color);
 }
 
 .team-position {
@@ -120,7 +124,7 @@
   line-height: 19px1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--accent-text-color);
 }
 
 .footer .footer-logo {
@@ -129,7 +133,7 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  /*color: #ffffff;*/
+  /*color: var(--primary-white-color) ;*/
 }
 
 .contact-adress {
@@ -137,7 +141,7 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  /* color: #ffffff;*/
+  /*color: var(--primary-white-color) ;*/
 }
 
 .contact-info {
@@ -157,7 +161,7 @@
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--accent-title-color);
 }
 /*==========COMPONENTS END============*/
 
@@ -170,9 +174,9 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--primary-white-color);
   cursor: pointer;
-  background-color: #2196f3;
+  background-color: var(--accent-color);
 }
 
 .filter-services {
@@ -181,14 +185,14 @@
   line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--accent-title-color);
   cursor: pointer;
 }
 
 .filter-services:hover,
 .filter-services:focus {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
 }
 
 .project-link {
@@ -197,7 +201,7 @@
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--accent-title-color);
 }
 
 .project-item {
@@ -206,7 +210,7 @@
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--accent-text-color);
 }
 
 /*==========FILTER PROJECT END============*/
